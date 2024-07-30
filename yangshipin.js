@@ -9,8 +9,7 @@
 [rewrite_local]
 
 ^http:\/\/(liveinfo|bkliveinfo|playvv)\.ysp\.cctv\.cn\/(playvinfo\?.+|.*) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
-#如果登录提示错误的话 手动屏蔽下面这条302
-#&guid=\w+&app_version=([\d\.]+)&spadseg=(\d)&userid=(|\d+) url 302 &guid=f066be2cdf1c4f4893eb818de454313a&app_version=$1&spadseg=$2&vuserid=209027229
+
 # 解锁[电视]内会员 如果登录提示错误的话 手动屏蔽下面这条
 #^https:\/\/liveinfo\.ysp\.cctv\.cn\/ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 #^https:\/\/m\.yangshipin\.cn\/static\/\w/\w+\/index\.html$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
