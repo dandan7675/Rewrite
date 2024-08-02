@@ -38,7 +38,7 @@
 https://api.lianjiu.fun/app/api/v1/profile url reject
 
 [mitm] 
-hostname = api.revenuecat.com
+hostname = api.revenuecat.com, api.lianjiu.fun
 
 ************************************/
 
